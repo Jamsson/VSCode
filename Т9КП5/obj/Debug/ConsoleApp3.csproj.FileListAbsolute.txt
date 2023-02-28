@@ -1,0 +1,8 @@
+E:\Информатика\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+E:\Информатика\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+E:\Информатика\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+E:\Информатика\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+E:\Информатика\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.SuggestedBindingRedirects.cache
+E:\Информатика\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+E:\Информатика\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+E:\Информатика\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

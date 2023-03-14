@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2
+namespace ConsoleApp2
 {
     internal class Program
     {
@@ -82,6 +82,10 @@
                     double[] array = new double[12];
 
                     Console.ForegroundColor = ConsoleColor.Yellow;
+
+
+
+
                     Console.WriteLine("Введите 12 элементов массива:");
                     for (int j = 0; j < 12; j++)
                     {
@@ -141,6 +145,11 @@
                     Console.ResetColor();
                     Console.ReadKey();
                     break;
+
+                default: 
+                    Console.WriteLine("Ошибка");
+                    break;
+
 
 
             }

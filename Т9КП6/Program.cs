@@ -82,10 +82,7 @@ namespace ConsoleApp2
                     double[] array = new double[12];
 
                     Console.ForegroundColor = ConsoleColor.Yellow;
-
-
-
-
+                    
                     Console.WriteLine("Введите 12 элементов массива:");
                     for (int j = 0; j < 12; j++)
                     {

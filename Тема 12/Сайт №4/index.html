@@ -1,33 +1,101 @@
 <html>
-	<head>
-		<title>
-			Сайт о компьютерах
-		</title>
-	</head>
-	
-	<body text="#FF5800" bgcolor="teal">
-		<font color="#0000ff" face="arial">
-			<h1 align="center"> 
-				<b><i><u> Все о компьютере </b></i></u> 
-			</h1>
-		</font>
-		<hr color="red" size="3" width="420" align="center">
+<head>
+	<title>Сайт о компьютерах</title>
+	<style>
+		body {
+			color: #FF5800;
+			background-color: teal;
+			transition: background-color 0.5s ease;
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			color: #0000FF;
+			text-align: center;
+			text-decoration: underline;
+		}
+		hr {
+			border: none;
+			border-top: 3px solid red;
+			height: 3px;
+			width: 80%;
+			margin: 0 auto;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		}
+		p {
+			font-size: 18px;
+			color: #800000;
+			text-align: justify;
+		}
+		p.right {
+			text-align: right;
+		}
+		a {
+			text-decoration: none;
+			color: inherit;
+			transition: color 0.3s ease;
+		}
+		a:hover {
+			color: #FF5800;
+		}
+		.button-container {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		.button-container button {
+			padding: 10px 20px;
+			margin: 0 5px;
+			border-radius: 10px;
+			color: #ffffff;
+			border: none;
+			cursor: pointer;
+			transition: background-color 0.3s ease, color 0.3s ease;
+		}
+		.button-container button:hover {
+			background-color: #FF5800;
+			color: #ffffff;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Все о компьютере</h1>
+		<hr>
 		<br><br><br><br><br>
-        <img src="image/PC/PC.png"
-		<font size="5" face="arial" color="#800000">
-			<p align="left"> На этом сайте Вы сможете получить различную информацию о компьютере, 
-			его программном обеспечении и ценах на на компьютерыные комплектующие </p></font>
+		<img src="image/PC/PC.png">
+		<p>На этом сайте Вы сможете получить различную информацию о компьютере, его программном обеспечении и ценах на компьютерные комплектующие.</p>
 		<br><br><br>
-		<font size="5" face="arial">
-		<p align="right"> Терменологический словарь познакомит Вас с компьютерными терминами, 
-			а так же Вы сможете заполнить анкету </p></font>
-		
-		<p align="center">
-			[<a href="pages/page 1/software.html">Программы</a>] &nbsp;
-			[<a href="pages/page 2/glossary.html">Словарь</a>] &nbsp;
-			[<a href="pages/page 3/hardware.html">Комплектующие</a>] &nbsp;
-			<a href="pages/page 5/hardware1.html"></a> &nbsp;
-			[<a href="pages/page 4/anketa.html">Анкета</a>] &nbsp;
-		</p>
-	</body>
+		<p class="right">Терминологический словарь познакомит Вас с компьютерными терминами, а также Вы сможете заполнить анкету.</p>
+		<div class="button-container">
+			<button style="background-color: #ff0000;" onclick="window.location.href='pages/page1/software.html'">Программы</button>
+			<button style="background-color: #00ff00;" onclick="window.location.href='pages/page2/glossary.html'">Словарь</button>
+			<button style="background-color: #0000ff;" onclick="window.location.href='pages/page3/hardware.html'">Комплектующие</button>
+			<button style="background-color: #ffff00; color: #000000;" onclick="window.location.href='pages/page4/anketa.html'">Анкета</button>
+		  </div>
+		  
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			const body = document.querySelector("body");
+			body.addEventListener("mouseover", function() {
+				body.style.backgroundColor = "purple";
+			});
+			body.addEventListener("mouseout", function() {
+				body.style.backgroundColor = "teal";
+			});
+		});
+	</script>
+</body>
 </html>

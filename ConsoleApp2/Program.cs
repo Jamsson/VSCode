@@ -14,7 +14,7 @@ namespace ConsoleApp2
             int maxPick = 1;
             int num = int.Parse(Console.ReadLine());
             Console.WriteLine("Кол-во шагов для числа {0}", CollatzMax(num, ref maxPick, ref steps));
-            Console.WriteLine("шагов{0} Макс пик{1}", steps, maxPick);
+            Console.WriteLine("шагов - {0} Макс пик - {1}", steps, maxPick);
             Console.ReadKey();
         }
         static int CollatzMax(int n, ref int max, ref int steps)
